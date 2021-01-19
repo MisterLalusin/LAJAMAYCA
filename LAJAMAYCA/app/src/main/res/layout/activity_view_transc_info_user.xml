@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txteditemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idtxtemail"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:weightSum="100">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idtxtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/idtxtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txteditemail"
+        android:layout_centerHorizontal="true"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/txteditdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/idtxtpass"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txteditdate"
+        android:layout_centerHorizontal="true"
+        android:text="Phone Number" />
+
+    <TextView
+        android:id="@+id/txteditphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtfirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txteditphone"
+        android:layout_centerHorizontal="true"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/txteditfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfirstname"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtlastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtfirstname"
+        android:layout_below="@+id/txteditfirst"
+        android:text="LastName" />
+
+    <TextView
+        android:id="@+id/txteditlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtlastname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/texteditdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txteditlastname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/idtxtemail"
+        android:layout_below="@+id/txteditlastname"
+        android:text="Details" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Details"
+        android:layout_below="@+id/texteditdetails"
+        android:text="Status" />
+
+    <TextView
+        android:id="@+id/texteditstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Status"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txteditrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txteditemail"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+       />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/idtxtemail"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/txtphone"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txteditrid"
+        android:layout_centerHorizontal="true"
+        android:text="Transaction Code" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/linearLayout"
+        android:text="NOTE: You can only cancel your order when the Status is 'Waiting for Approval'"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:text="CANCEL RESERVATION" />
+
+</RelativeLayout>

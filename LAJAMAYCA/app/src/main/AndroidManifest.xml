@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="data.ba.se.lajamayca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_lajamayca"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".customer" />
+        <activity android:name=".Packages" />
+        <activity android:name=".Packages1" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".ReviewsAndFeedback" />
+        <activity android:name=".AdminApp" />
+        <activity android:name=".Reserve" />
+        <activity android:name=".gallery1" />
+        <activity android:name=".pop" />
+        <activity android:name=".Show" />
+        <activity android:name=".UpdatePass" />
+        <activity android:name=".UpdatePassAdmin" />
+        <activity android:name=".ViewUsers" />
+        <activity android:name=".UpdateInfo" />
+        <activity android:name=".ViewTranscAdmin" />
+        <activity android:name=".UpdateTranscAdmin" />
+        <activity android:name=".ViewTranscUser" />
+        <activity android:name=".ViewTranscInfoUser"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fffefe"
+    tools:context="data.ba.se.lajamayca.customer">
+
+    <Button
+        android:text="Reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:elevation="1dp"
+        android:onClick="pack1"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="113dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:text="Hotel And Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_lajamayca"
+        android:id="@+id/imageView"
+        android:layout_height="121dp"
+        android:layout_width="130dp"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:text="LA JAMAYCA"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:elevation="1dp"
+        android:onClick="rev"
+        android:background="@android:color/background_dark"
+        android:text="Feedback  "
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:text="My Transactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:elevation="1dp"
+        android:onClick="pack1"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/showname"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="150dp" />
+
+    <Button
+        android:text="Account Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showdetails"
+        android:elevation="1dp"
+        android:onClick="pack1"
+        android:background="@android:color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="data.ba.se.lajamayca.AdminApp"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="Pending Reservations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Customer2"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView10"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Customer3"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_below="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView10"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Customer4"
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView10"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:text="         Status       "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:background="#ff0000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Customer1"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="      Customers      "
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textSize="24sp"
+        android:layout_marginTop="29dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:background="#ff0000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="900dp"
+        android:layout_below="@+id/textView9"
+        android:layout_toStartOf="@+id/textView10" />
+
+    <TextView
+        android:text="La Jamayca Hotel and Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/radioButton2" />
+
+    <Button
+        android:text="Approve All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Customer5"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/editText9"
+        android:layout_alignEnd="@+id/editText9" />
+
+    <Button
+        android:text="Deny All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editText5" />
+
+</RelativeLayout>

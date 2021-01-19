@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reserve"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="data.ba.se.lajamayca.Reserve">
+
+
+    <TextView
+        android:text="Package 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton7"
+        android:layout_toStartOf="@+id/textView16"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:text="Package 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton7"
+        android:layout_toStartOf="@+id/textView16"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="Hotel And Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:text="LA JAMAYCA"
+
+        android:layout_marginEnd="69dp"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/pac2"
+        android:id="@+id/imageButton8"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@+id/imageButton7"
+        android:layout_alignParentEnd="true"
+        android:onClick="pop"
+        android:elevation="0dp" />
+
+    <ImageButton
+        app:srcCompat="@drawable/pac1"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageButton7"
+        android:scaleType="centerCrop"
+        android:elevation="0dp"
+        android:onClick="pop"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/pac3"
+        android:layout_marginTop="76dp"
+        android:id="@+id/imageButton9"
+        android:scaleType="centerCrop"
+        android:onClick="pop"
+        android:layout_below="@+id/imageButton7"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/pac4"
+        android:id="@+id/imageButton10"
+        android:onClick="pop"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Package 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/imageButton8"
+        android:layout_toEndOf="@+id/textView17" />
+
+    <TextView
+        android:text="Package 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Package 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton10"
+        android:layout_alignStart="@+id/textView18"
+        android:id="@+id/textView24" />
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_lajamayca"
+        android:id="@+id/imageView9"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_toStartOf="@+id/textView17" />
+
+
+</RelativeLayout>
